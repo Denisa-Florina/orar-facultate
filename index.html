@@ -1,33 +1,44 @@
 <!DOCTYPE html>
 <html lang="ro">
 <head>
-    <title>Anul 3 Informatica - linia de studiu romana</title>
+    <title>Anul 3 Informatica - Cat Edition 🐾</title>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-2">
     <style>
-        /* Fundal general și font-uri */
         body {
-            background-color: #fff0f5; /* Lavender Blush */
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fff0f5; 
+            background-image: radial-gradient(#ffdae9 1px, transparent 1px);
+            background-size: 20px 20px; 
+            font-family: 'Segoe UI', 'Comic Sans MS', cursive, sans-serif;
             color: #4a4a4a;
             margin: 20px;
             display: flex;
             flex-direction: column;
             align-items: center;
+            cursor: url('https://cur.cursors-4u.net/nature/nat-10/nat984.cur'), auto;
         }
 
         h1 {
             color: #d81b60;
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
-            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 5px;
+            font-size: 2.5em;
+        }
+
+        h1::after {
+            content: " 🐾";
+        }
+
+        h1::before {
+            content: "🐱 ";
         }
 
         h3 {
             color: #ad1457;
             margin-top: 30px;
-            border-bottom: 2px solid #f06292;
+            border-bottom: 3px dotted #f06292;
             padding-bottom: 5px;
+            display: inline-block;
         }
-
 
         table {
             border-collapse: separate;
@@ -35,194 +46,187 @@
             width: 90%;
             max-width: 1000px;
             background-color: white;
-            border-radius: 15px;
+            border-radius: 25px; 
             overflow: hidden;
-            box-shadow: 0 4px 15px rgba(240, 98, 146, 0.2);
-            border: 2px solid #f06292;
-            margin-bottom: 20px;
+            box-shadow: 0 10px 25px rgba(216, 27, 96, 0.15);
+            border: 3px solid #f06292;
+            margin-bottom: 30px;
+            transition: transform 0.3s ease;
+        }
+
+        table:hover {
+            transform: translateY(-5px); 
         }
 
         th {
             background-color: #f06292; 
             color: white;
-            padding: 12px;
-            font-weight: 600;
+            padding: 15px;
+            font-weight: 800;
             text-transform: uppercase;
-            font-size: 0.9em;
+            letter-spacing: 1px;
         }
 
         td {
-            padding: 10px;
+            padding: 12px;
             border-bottom: 1px solid #fce4ec;
             font-size: 0.95em;
         }
 
-        tr:last-child td {
-            border-bottom: none;
-        }
+        .sapt1 { background-color: #fbeaef !important; } 
+        .sapt2 { background-color: #ede1f6 !important; } 
 
         tr:hover {
-            background-color: #fff8fa !important;
+            background-color: #ffe4ed !important; 
         }
-
-
-        a {
-            color: #c2185b;
-            text-decoration: none;
-            font-weight: 500;
-        }
-
-        a:hover {
-            text-decoration: underline;
-            color: #f06292;
-        }
-
-
-        
-
-        tr[data-week="1"], 
-        tr:has(td:contains("sapt. 1")) {
-            background-color: #edcdd8; 
-        }
-
-        .sapt1 { background-color: #fce4ec !important; } /* Roz deschis */
-        .sapt2 { background-color: #f1d8f5 !important; } /* Mov deschis/lila */
 
         .bloc {
             font-weight: bold;
             color: #880e4f;
+            background: #ffe0eb;
+            border-radius: 10px;
+            padding: 2px 8px;
         }
 
+        .cat-decoration {
+            font-size: 2em;
+            margin: 10px;
+        }
 
         center {
             width: 100%;
         }
+
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #fff0f5; }
+        ::-webkit-scrollbar-thumb { background: #f06292; border-radius: 10px; }
     </style>
 </head>
 <body>
 
-<h1>Orar Anul 3 Informatica - linia de studiu romana</h1>
-<h1>Grupa 235</h1>
+<h1>Orar Informatica</h1>
+<h3>✨ Grupa 235 ✨</h3>
+
 
 <center>
-    <table border="0">
+    <table>
         <thead>
             <tr>
                 <th>Ziua</th>
-                <th>Orele</th>
+                <th>Orele 🕒</th>
                 <th>Frecventa</th>
-                <th>Sala</th>
+                <th>Sala 🏠</th>
                 <th>Formatia</th>
                 <th>Tipul</th>
                 <th>Disciplina</th>
-                <th>Cadrul didactic</th>
+                <th>Cadrul didactic 🎓</th>
             </tr>
         </thead>
         <tbody>
             <tr align="center" class="sapt1">
                 <td>Luni</td>
-                <td class="bloc">10-12</td>
+                <td><span class="bloc">10-12</span></td>
                 <td>sapt. 1</td>
-                <td><a href="../sali/L404.html">L404</a></td>
+                <td>L404</td>
                 <td>235</td>
                 <td>Seminar</td>
-                <td><a href="../disc/MLR8112.html">Gestiunea proiectelor soft</a></td>
-                <td><a href="../cadre/suda.html">Conf. SUCIU Dan Mircea</a></td>
+                <td>Gestiunea proiectelor soft</td>
+                <td>Conf. SUCIU Dan Mircea</td>
             </tr>
             <tr align="center">
                 <td>Luni</td>
-                <td class="bloc">12-14</td>
+                <td><span class="bloc">12-14</span></td>
                 <td>&nbsp;</td>
-                <td><a href="../sali/C310.html">C310</a></td>
+                <td>C310</td>
                 <td>I3</td>
                 <td>Curs</td>
-                <td><a href="../disc/MLR8112.html">Gestiunea proiectelor soft</a></td>
-                <td><a href="../cadre/suda.html">Conf. SUCIU Dan Mircea</a></td>
+                <td>Gestiunea proiectelor soft</td>
+                <td>Conf. SUCIU Dan Mircea</td>
             </tr>
             <tr align="center" class="sapt1">
                 <td>Luni</td>
-                <td class="bloc">18-20</td>
+                <td><span class="bloc">18-20</span></td>
                 <td>sapt. 1</td>
-                <td><a href="../sali/C335.html">C335</a></td>
+                <td>C335</td>
                 <td>233/2</td>
                 <td>Laborator</td>
-                <td><a href="../disc/MLR5014.html">Verificarea si validarea sistemelor soft</a></td>
-                <td><a href="../cadre/mial1.html">C.d.asociat MIHIS Alin</a></td>
+                <td>Verificarea si validarea sistemelor soft</td>
+                <td>C.d.asociat MIHIS Alin</td>
             </tr>
             <tr align="center">
                 <td>Marti</td>
-                <td class="bloc">8-10</td>
+                <td><span class="bloc">8-10</span></td>
                 <td>&nbsp;</td>
-                <td><a href="../sali/2-I.html">2/I</a></td>
+                <td>2/I</td>
                 <td>I3</td>
                 <td>Curs</td>
-                <td><a href="../disc/MLR5014.html">Verificarea si validarea sistemelor soft</a></td>
-                <td><a href="../cadre/chca.html">Lect. CHISALITA-CRETU Camelia</a></td>
+                <td>Verificarea si validarea sistemelor soft</td>
+                <td>Lect. CHISALITA-CRETU Camelia</td>
             </tr>
             <tr align="center" class="sapt2">
                 <td>Marti</td>
-                <td class="bloc">12-14</td>
+                <td><span class="bloc">12-14</span></td>
                 <td>sapt. 2</td>
-                <td><a href="../sali/7-I.html">7/I</a></td>
+                <td>7/I</td>
                 <td>234</td>
                 <td>Seminar</td>
-                <td><a href="../disc/MLR5014.html">Verificarea si validarea sistemelor soft</a></td>
-                <td><a href="../cadre/chca.html">Lect. CHISALITA-CRETU Camelia</a></td>
+                <td>Verificarea si validarea sistemelor soft</td>
+                <td>Lect. CHISALITA-CRETU Camelia</td>
             </tr>
             <tr align="center" class="sapt1">
                 <td>Marti</td>
-                <td class="bloc">16-18</td>
+                <td><span class="bloc">16-18</span></td>
                 <td>sapt. 1</td>
-                <td><a href="../sali/L321.html">L321</a></td>
+                <td>L321</td>
                 <td>235</td>
                 <td>Laborator</td>
-                <td><a href="../disc/MLR5091.html">Dezvoltarea de jocuri</a></td>
-                <td><a href="../cadre/laio.html">Lect. LAZAR Ioan</a></td>
+                <td>Dezvoltarea de jocuri</td>
+                <td>Lect. LAZAR Ioan</td>
             </tr>
             <tr align="center" class="sapt1">
                 <td>Miercuri</td>
-                <td class="bloc">8-10</td>
+                <td><span class="bloc">8-10</span></td>
                 <td>sapt. 1</td>
-                <td><a href="../sali/L336.html">L336</a></td>
+                <td>L336</td>
                 <td>235/1</td>
                 <td>Laborator</td>
-                <td><a href="../disc/MLR2001.html">Elaborarea lucrarii de licenta</a></td>
-                <td><a href="../cadre/seca.html">Conf. SERBAN Camelia</a></td>
+                <td>Elaborarea lucrarii de licenta</td>
+                <td>Conf. SERBAN Camelia</td>
             </tr>
             <tr align="center">
                 <td>Miercuri</td>
-                <td class="bloc">10-12</td>
+                <td><span class="bloc">10-12</span></td>
                 <td>&nbsp;</td>
-                <td><a href="../sali/L338.html">L338</a></td>
+                <td>L338</td>
                 <td>235/1</td>
                 <td>Laborator</td>
-                <td><a href="../disc/MLR0028.html">Calcul numeric</a></td>
-                <td><a href="../cadre/trra.html">Conf. TRAMBITAS Radu</a></td>
+                <td>Calcul numeric</td>
+                <td>Conf. TRAMBITAS Radu</td>
             </tr>
             <tr align="center">
                 <td>Miercuri</td>
-                <td class="bloc">16-18</td>
+                <td><span class="bloc">16-18</span></td>
                 <td>&nbsp;</td>
-                <td><a href="../sali/2-I.html">2/I</a></td>
+                <td>2/I</td>
                 <td>I3</td>
                 <td>Curs</td>
-                <td><a href="../disc/MLR0028.html">Calcul numeric</a></td>
-                <td><a href="../cadre/trra.html">Conf. TRAMBITAS Radu</a></td>
+                <td>Calcul numeric</td>
+                <td>Conf. TRAMBITAS Radu</td>
             </tr>
             <tr align="center">
                 <td>Vineri</td>
-                <td class="bloc">14-16</td>
+                <td><span class="bloc">14-16</span></td>
                 <td>&nbsp;</td>
-                <td><a href="../sali/2-I.html">2/I</a></td>
+                <td>2/I</td>
                 <td>I3</td>
                 <td>Curs</td>
-                <td><a href="../disc/MLR7007.html">Istoria informaticii</a></td>
-                <td><a href="../cadre/stad.html">Conf. STERCA Adrian</a></td>
+                <td>Istoria informaticii</td>
+                <td>Conf. STERCA Adrian</td>
             </tr>
         </tbody>
     </table>
 
-    <h3>Module Optionale / Helpfull</h3>
+    <h3>✨ Helpfull ✨</h3>
 
     <table border="0">
         <thead>
@@ -240,37 +244,39 @@
         <tbody>
             <tr align="center">
                 <td>Joi</td>
-                <td class="bloc">16-18</td>
+                <td><span class="bloc">16-18</span></td>
                 <td>&nbsp;</td>
-                <td><a href="../sali/C310.html">C310</a></td>
+                <td>C310</td>
                 <td>I3</td>
                 <td>Curs</td>
-                <td><a href="../disc/MLR5091.html">Dezvoltarea de jocuri</a></td>
-                <td><a href="../cadre/laio.html">Lect. LAZAR Ioan</a></td>
+                <td>Dezvoltarea de jocuri</td>
+                <td>Lect. LAZAR Ioan</td>
             </tr>
             <tr align="center">
                 <td>Vineri</td>
-                <td class="bloc">10-11</td>
+                <td><span class="bloc">10-11</span></td>
                 <td>&nbsp;</td>
-                <td><a href="../sali/DPPD-205.html">DPPD-205</a></td>
+                <td>DPPD-205</td>
                 <td>I3</td>
                 <td>Curs</td>
-                <td><a href="../disc/VDP3607.html">Managementul clasei de elevi</a></td>
-                <td><a href="../cadre/dima.html">Lect. MAIER Mariana</a></td>
+                <td>Managementul clasei de elevi</td>
+                <td>Lect. MAIER Mariana</td>
             </tr>
             <tr align="center" class="sapt1">
                 <td>Vineri</td>
-                <td class="bloc">11-13</td>
+                <td><span class="bloc">11-13</span></td>
                 <td>sapt. 1</td>
-                <td><a href="../sali/DPPD-205.html">DPPD-205</a></td>
+                <td>DPPD-205</td>
                 <td>I3</td>
                 <td>Seminar</td>
-                <td><a href="../disc/VDP3607.html">Managementul clasei de elevi</a></td>
-                <td><a href="../cadre/dima.html">Lect. MAIER Mariana</a></td>
+                <td>Managementul clasei de elevi</td>
+                <td>Lect. MAIER Mariana</td>
             </tr>
         </tbody>
     </table>
 </center>
+
+<p style="color: #f06292;">Purrr-fect schedule for a Pro Coder! 🐾</p>
 
 </body>
 </html>
